@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+// import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 import { useState,useEffect } from "react";
 import { useRef } from 'react';
@@ -8,7 +8,7 @@ import Hero from './Hero';
 import {gsap} from "gsap";
 import CustomLink from './CustomLink';
 
-const Nav = () => {
+const Header = () => {
 
     const [isOpen, setIsOpen] = useState(false);
 
@@ -76,10 +76,10 @@ const Nav = () => {
       };
 
     return (
-        <section className="w-full bg-mau_nen_primary h-auto pb-8">
+        <section className="bg-mau_nen_primary w-full h-auto pb-8">
             {/* <Router> */}
                 <nav className="fixed left-0 top-0 bg-mau_nen_primary w-full z-20 shadow-md">
-                    <div className="container flex items-center justify-between md:flex-row h-16 max-w-[1280px]">
+                    <div className="container flex items-center justify-between md:flex-row h-16 max-w-[1280px] mx-auto">
                         <h1 className="text-mau_trang font-bold font-inter text-xl">
                             <a href="/">
                                 FurniExpert
@@ -146,4 +146,4 @@ const Nav = () => {
   )
 }
 
-export default Nav
+export default Header

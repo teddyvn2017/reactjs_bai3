@@ -1,11 +1,11 @@
 import React from 'react';
-import NavOnly from '../components/NavOnly';
+import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 const Layout = ({children}) => {
   return (
     <>
-    <NavOnly />
+    <Header />
         <main>{children}</main>
     <Footer />
     </>

@@ -5,9 +5,9 @@ import plane from '../assets/img/plane.png'
 
 const Footer = () => {
   return (
-    <footer className="lg:mt-[160px] mt-[120px] w-full bg-mau_vang py-16">
+    <footer className="lg:mt-[160px] mt-[120px] w-full bg__footer py-16">
 
-        <div className="container max-w-[1280px]">
+        <div className="container max-w-[1280px] mx-auto">
             <div className="flex flex-col md:flex-row w-full gap-8 justify-center">
                 <div className="flex flex-col gap-4 md:basis-1/2">
                     <div className="flex flex-row gap-2">
@@ -34,8 +34,8 @@ const Footer = () => {
 
             <div className="xs:mt-[360px] mt-[16rem] md:mt-[6rem] lg:mt-[11rem]">
                 <h2 className="text-mau_den text-2xl font-semibold">FurniExpert</h2>
-                <div className="mt-4 grid grid-cols-12 gap-8">
-                    <p className="text-base text-mau_desc col-span-12 text-wrap lg:col-span-3 pr-2">
+                <div className="mt-4 grid grid-cols-12 gap-8 mau__chu_footer">
+                    <p className="text-base col-span-12 text-wrap lg:col-span-3 pr-2">
                         Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was to be done
                     </p>                  
                     
@@ -108,6 +108,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+
         <div className="container flex flex-row gap-8 mt-[2rem] text-3xl max-w-[1280px]">
             <a href="#" className="group">
                 <i className="ri-facebook-fill transition ease-in-out p-2 group-hover:bg-mau_xanh rounded-full group-hover:text-mau_trang duration-500"></i>
@@ -125,11 +126,12 @@ const Footer = () => {
                 group-hover:bg-mau_xanh rounded-full group-hover:text-mau_trang duration-500"></i>
             </a>
         </div>
-        <div className="container mt-[1rem] max-w-[1280px]">
+
+        <div className="container mt-[1rem] max-w-[1280px]  mx-auto">
             <hr className="border-mau_den border-y-1" />
         </div>
 
-        <div className="container mt-[2rem] grid grid-cols-12 gap-8 max-w-[1280px]">
+        <div className="container mt-[2rem] grid grid-cols-12 gap-8 max-w-[1280px] mx-auto">
             <div className="text-mau_desc text-base col-span-12 lg:col-span-6  justify-start">
                 Copyright 2022 sybexdesigns@gmail.com. All Rights Reserved.
             </div>

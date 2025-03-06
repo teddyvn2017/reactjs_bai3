@@ -76,16 +76,16 @@ const Header = () => {
       };
 
     return (
-        <section className="bg-mau_nen_primary w-full h-auto pb-8">
+        <section className="bg__header w-full h-auto pb-8">
             {/* <Router> */}
-                <nav className="fixed left-0 top-0 bg-mau_nen_primary w-full z-20 shadow-md">
+                <nav className="fixed left-0 top-0 bg__header w-full z-20 shadow-md">
                     <div className="container flex items-center justify-between md:flex-row h-16 max-w-[1280px] mx-auto">
                         <h1 className="text-mau_trang font-bold font-inter text-xl">
                             <a href="/">
                                 FurniExpert
                             </a>
                         </h1>
-                        <ul className="hidden gap-10 text-mau_trang md:flex md:flex-row text-base">
+                        <ul className="hidden gap-10 text-mau_trang md:flex md:flex-row text-base font-semibold">
                           
                             <CustomLink to="/">Home</CustomLink>
                             <CustomLink to="/about-us">About us</CustomLink>

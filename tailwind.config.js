@@ -1,9 +1,13 @@
-module.exports = {
+/** @type {import('tailwindcss').Config} */
+export default {
   content: [
-    "./src/**/*.{html,js,jsx,ts,tsx}",  // Duyệt tất cả file trong thư mục src
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
+
   theme: {
     extend: {
+
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
       },
@@ -20,8 +24,19 @@ module.exports = {
         'mau_vien_xam':'#c4c4c4',
         'mau_xanh':'rgba(53,115,110,.3)'
       },
+
+      container: {
+        center: true,
+        padding: "1.5rem",//tuong đương với <div class="container p-4 mx-auto"></div>
+      },
+
+      screens: {
+        'xs': '475px',
+       
+      },
+    },
+  
   },
   plugins: [],
-  }
 }
 

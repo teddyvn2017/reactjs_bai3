@@ -6,7 +6,7 @@ import { BsArrowRightShort } from "react-icons/bs";
 const Craft = () => {
     return (
         <section className="mt-12 py-16">
-        <div className="grid container lg:grid-cols-12 md:grid-cols-6 gap-10 overflow-hidden justify-center items-center max-w-[1280px]">
+        <div className="grid container mx-auto lg:grid-cols-12 md:grid-cols-6 gap-10 overflow-hidden justify-center items-center max-w-[1280px]">
             <div className="col-span-3 md:col-span-3">
                 <h1 className="text-3xl text-title font-semibold text-wrap text-left">Crafted with excellent material.</h1>
                 <p className="mt-4 text-mau_desc text-xl text-left">

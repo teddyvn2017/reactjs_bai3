@@ -1,4 +1,5 @@
 import React from 'react';
+import Hero from '../components/Hero'
 import Craft from '../components/Craft'
 import Why from '../components/Why'
 import Help from '../components/Help'
@@ -9,13 +10,14 @@ import Layout from '../layouts/Layout';
 
 const HomePage = () => {
   return (
-    <Layout>     
-      <Craft />
-      <Why />
-      <Help />
-      <Three />
-      <Testimonial />
-      <Recent />      
+    <Layout>
+		<Hero />
+		<Craft />
+		<Why />
+		<Help />
+		<Three />
+		<Testimonial />
+		<Recent />      
     </Layout>
   );
 };

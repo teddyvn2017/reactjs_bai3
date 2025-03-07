@@ -9,4 +9,4 @@
     <li>Trong đó sử dụng index.css (khai báo biến truyền thống var(--))</li>
     <li>Có thử nghiệm thư viện/gói react-helmet-async nhưng không có kết quả</li>
     <li>Sử dụng code trực tiếp để thêm thẻ meta</li>
-</ul>   
+</ul>

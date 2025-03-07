@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import Layout from '../layouts/Layout';
 
 const CartPage = () => {
@@ -7,6 +7,22 @@ const CartPage = () => {
     { id: 1, name: "iPhone 15", price: 999, quantity: 1, image: "https://placehold.co/50" },
     { id: 2, name: "MacBook Air", price: 1299, quantity: 2, image: "https://placehold.co/50" },
   ];
+
+  useEffect(() => {
+	
+		// Thêm thẻ meta để làm SEO
+		document.title = "Giỏ hàng - FuniExpet";
+		const metaDesc = document.querySelector('meta[name="description"]');
+		if (metaDesc) {
+			metaDesc.content = "Chung toi cung cap noi that gia re, phong cach Chau Au, ben gi";
+		}
+		else {
+			const newMeta = document.createElement('meta');
+			newMeta.name = "description";
+			newMeta.content = "Chung toi cung cap noi that gia re, phong cach Chau Au, ben gi";
+			document.head.appendChild(newMeta);
+		}
+		}, []);
 
   return (
     <Layout>

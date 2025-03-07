@@ -5,7 +5,7 @@ import { BsArrowRightShort } from "react-icons/bs";
 const Hero = () => {
     return (
         <section className='w-full bg__hero'>
-            <div className="container mx-auto grid items-center justify-center max-w-[1280px] gap-8 lg:py-16 lg:grid-cols-12">
+            <div className="container mx-auto px-4 grid items-center justify-center max-w-[1280px] gap-8 lg:py-16 lg:grid-cols-12">
                 <div className="place-self-center col-span-12 md:col-span-6 pt-10">
                     <h1 className="text-3xl text-mau_trang font-bold leading-snug mb-[2rem] text-left">
                         Modern Interior <br />

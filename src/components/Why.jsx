@@ -10,7 +10,7 @@ import dot from '../assets/img/dot.png'
 const Why = () => {
     return (
         <section className="mt-16">
-            <div className="container mx-auto flex flex-col lg:flex-row gap-12 max-w-[1280px]">            
+            <div className="container mx-auto px-4 flex flex-col lg:flex-row gap-12 max-w-[1280px]">            
                 <div className="flex-col basis-2/4 lg:text-left">
                     <div>
                         <h1 className="text-[34px] text-title font-semibold mb-4">Why choose us</h1>

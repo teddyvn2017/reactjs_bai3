@@ -6,7 +6,7 @@ import recent3 from '../assets/img/recent3.png'
 const Recent = () => {
   return (
     <section className="mt-12">
-        <div className="container mx-auto max-w-[1280px]">
+        <div className="container mx-auto px-4 max-w-[1280px]">
             <div className="flex flex-row items-center gap-4">
                 <h1 className="lg:text-[34px] text-[28px] text-title font-semibold">
                     Recent Blog

@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="lg:mt-[160px] mt-[120px] w-full bg__footer py-16">
 
-        <div className="container max-w-[1280px] mx-auto">
+        <div className="container max-w-[1280px] mx-auto px-4">
             <div className="flex flex-col md:flex-row w-full gap-8 justify-center">
                 <div className="flex flex-col gap-4 md:basis-1/2">
                     <div className="flex flex-row gap-2">
@@ -127,11 +127,11 @@ const Footer = () => {
             </a>
         </div>
 
-        <div className="container mt-[1rem] max-w-[1280px]  mx-auto">
+        <div className="container mt-[1rem] max-w-[1280px]  mx-auto px-4">
             <hr className="border-mau_den border-y-1" />
         </div>
 
-        <div className="container mt-[2rem] grid grid-cols-12 gap-8 max-w-[1280px] mx-auto">
+        <div className="container mt-[2rem] grid grid-cols-12 gap-8 max-w-[1280px] mx-auto px-4">
             <div className="text-mau_desc text-base col-span-12 lg:col-span-6  justify-start">
                 Copyright 2022 sybexdesigns@gmail.com. All Rights Reserved.
             </div>

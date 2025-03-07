@@ -12,7 +12,16 @@
       --mau_vien_xam: #c4c4c4;
       --mau_xanh:rgba(53,115,110,.3);
       --mau_xam_footer:#6a6a6a;
+      --mau_do:#a6171a;
     }
+}
+
+.bg__primary {
+    background-color: var(--mau_nen_primary);
+}
+
+.bg__vang_nhat {
+    background-color: var(--mau_vang_nhat);
 }
 
 .bg__header {
@@ -387,3 +396,7 @@
     width:100%;
 }
 
+/* Gio hang */
+.cart_remove {
+    background-color:var(--mau_do);
+}

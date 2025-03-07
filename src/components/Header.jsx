@@ -85,8 +85,7 @@ const Header = () => {
                                 FurniExpert
                             </a>
                         </h1>
-                        <ul className="hidden gap-10 text-mau_trang md:flex md:flex-row text-base font-semibold">
-                          
+                        <ul className="hidden gap-10 text-mau_trang md:flex md:flex-row text-base font-semibold">                          
                             <CustomLink to="/">Home</CustomLink>
                             <CustomLink to="/about-us">About us</CustomLink>
                             <CustomLink to="/services">Services</CustomLink>

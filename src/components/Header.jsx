@@ -4,9 +4,9 @@ import React from 'react';
 import { useState,useEffect } from "react";
 import { useRef } from 'react';
 import { BsPersonCircle ,BsBag   } from "react-icons/bs";
-import Hero from './Hero';
 import {gsap} from "gsap";
 import CustomLink from './CustomLink';
+import CartIcon from './CartIcon';
 
 const Header = () => {
 
@@ -135,9 +135,7 @@ const Header = () => {
                             <a href="/dang-nhap">
                                 <BsPersonCircle />
                             </a>
-                            <a href="/gio-hang">
-                                <BsBag />
-                            </a>              
+                            <CartIcon cartCount={0} />  
                         </div>
                     </div>
                     

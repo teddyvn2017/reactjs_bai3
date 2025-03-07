@@ -135,7 +135,7 @@ const Header = () => {
                             <a href="/dang-nhap">
                                 <BsPersonCircle />
                             </a>
-                            <CartIcon cartCount={0} />  
+                            <CartIcon cartCount={1} />  
                         </div>
                     </div>
                     
